@@ -15,7 +15,7 @@ public class Quiz {
         int storage[] = {4096, 8192, 16384, 32768, 65526, 2^17};
 
         Random rand = new Random();
-        for(;;){
+        for( ; ; ){
             for(i=0;i<ELEMNUM;i++){
             randData[i] = rand.nextInt(4096)+1;
             System.out.println("randData["+i+"]"+randData[i]);
